@@ -20,3 +20,4 @@ public class N412_Fizz_Buzz {
 }
 //         Runtime: 2 ms, faster than 60.46% of Java online submissions for Fizz Buzz.
 //        Memory Usage: 48.3 MB, less than 45.48% of Java online submissions for Fizz Buzz.
+//
