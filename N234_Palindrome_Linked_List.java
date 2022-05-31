@@ -1,23 +1,6 @@
 import java.util.Stack;
 
 public class N234_Palindrome_Linked_List {
-
-    //     Definition for singly-linked list.
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
-    public static class Solution {
         public static boolean isPalindrome(ListNode head) {
             int total_length = 1;
             ListNode temp_node = head;
@@ -39,7 +22,7 @@ public class N234_Palindrome_Linked_List {
                 temp_node = temp_node.next;
             }
             return true;
-        }
+
     }
 
 //    public static void main(String[] args) {
