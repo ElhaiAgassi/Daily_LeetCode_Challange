@@ -1,20 +1,4 @@
 public class N876_Middle_Linked_List {
-
-    //     Definition for singly-linked list.
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public static ListNode middleNode(ListNode head) {
         if (head.next == null) return head;
         if (head.next.next == null) return head.next;
