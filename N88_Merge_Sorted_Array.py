@@ -15,6 +15,8 @@ class Solution:
                 n-=1
 
 
-    # merge([1,2,3,0,0,0],3,[2,5,6], 3)
+
+
+    merge([1,2,3,0,0,0],3,[2,5,6], 3)
 #Runtime: 55 ms, faster than 41.99% of Python3 online submissions for Merge Sorted Array.
 # Memory Usage: 13.8 MB, less than 85.45% of Python3 online submissions for Merge Sorted Array.
