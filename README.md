@@ -1,5 +1,5 @@
 # Daily_LeetCode_Challange
-Here I will share my self-challenge to solve two LeetCode riddles everyday...
+Here I will share the succes of my self-challenge to solve two LeetCode riddles everyday...
 Wish me luck!
 
 - [x] - 28.5.22
