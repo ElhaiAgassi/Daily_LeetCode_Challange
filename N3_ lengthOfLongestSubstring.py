@@ -6,20 +6,16 @@ def lengthOfLongestSubstring(s: str) -> int:
     #         sub = sub[sub.index(i)+1:]+i
     #     else:
     #         sub = sub+i
-    # maximum = max(maximum,len(sub))
+    #   maximum = max(maximum,len(sub))
     # return maximum
 
     map = {}
-    left = maximum = 0
+    left = maximum = max_length = 0
     for right, c in enumerate(s):
         if (c in map):
             left = max(left, map[c]+1)
-
-
-        map[s[i]] = i
-
-        max_length = max(max_length, length)
-
+        max_length = max(max_length, right - left +1)
+        map[c] = right
     return max_length
 
 
