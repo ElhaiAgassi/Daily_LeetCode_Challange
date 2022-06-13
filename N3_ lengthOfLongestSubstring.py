@@ -10,7 +10,7 @@ def lengthOfLongestSubstring(s: str) -> int:
     # return maximum
 
     map = {}
-    left = maximum = max_length = 0
+    left = max_length = 0
     for right, c in enumerate(s):
         if (c in map):
             left = max(left, map[c]+1)
