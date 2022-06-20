@@ -16,9 +16,7 @@ public class N289_Game_Of_Life {
         }
 
         public static boolean isInside(int[][] cells, int x, int y) {
-            if (x >= 0 && x < cells.length && y >= 0 && y < cells[0].length)
-                return true;
-            else return false;
+            return x >= 0 && x < cells.length && y >= 0 && y < cells[0].length;
         }
 
         public static int numberOfNeighbors(int[][] cells, int x, int y) {
